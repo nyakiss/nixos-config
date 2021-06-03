@@ -9,5 +9,6 @@
     tree
     unrar
     wget
+    zip
   ];
 }
