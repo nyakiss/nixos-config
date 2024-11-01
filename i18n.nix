@@ -11,12 +11,11 @@ with lib; {
 
   i18n.defaultLocale = mkDefault "ru_RU.UTF-8";
 
-  services.xserver = {
-    xkbModel = "pc105";
+services.xserver.xkb = {
+    model = "pc105";
     layout = "us,ru";
-    xkbOptions = "grp:caps_toggle,grp_led:caps";
+    options = "grp:caps_toggle,grp_led:caps,compose:ralt";
   };
 
-  # Set your time zone.
   time.timeZone = mkDefault "Asia/Novokuznetsk";
 }

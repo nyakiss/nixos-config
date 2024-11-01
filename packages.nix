@@ -10,5 +10,12 @@
     unrar
     wget
     zip
+    firefox
+    spotify
+    telegram-desktop
+    vscode-fhs
+    mpv
+    gimp
+    pciutils
   ];
 }
